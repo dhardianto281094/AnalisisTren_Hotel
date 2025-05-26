@@ -1,0 +1,43 @@
+hotel: Type of hotel (Categorical)
+
+is_canceled: Whether the booking was canceled or not (Binary)
+
+lead_time: Number of days between booking date and arrival date (Numeric)
+
+arrival_date_year: The year of the arrival date (Numeric)
+
+arrival_date_month: The month of the arrival date (Categorical)
+
+arrival_date_week_number: The week number of the arrival date (Numeric)
+
+arrival_date_day_of_month: The day of the month of the arrival date (Numeric)
+
+stays_in_weekend_nights: Number of weekend nights stayed or booked to stay at the hotel (Numeric)
+
+stays_in_week_nights: Number of week nights stayed or booked to stay at the hotel (Numeric)
+
+adults, children, babies: Number of guests categorized by age groups
+
+adults = Number of adults
+children = Number of children
+babies = Number infants
+Booking Details:
+
+meal: Type(s) food option(s) included in booking package (Categorical)
+country & market_segment & distribution_channel columns provide demographic and customer classification information.
+is_repeated_guest column specifies whether a guest is a repeated visitor or not.
+previous_cancellations column indicates how many previous bookings were canceled by a guest.
+previous_bookings_not_canceled shows how many previous bookings were not canceled by a guest.
+Accommodation Details:
+
+reserved_room_type column indicates which type room was originally reserved for each booking.
+assigned_room_type mentions which type room was finally assigned for each booking.
+booking_changes: Number of changes made to the booking before arrival.
+deposit_type: Type of deposit made for the booking (Categorical).
+agent & company columns provide relevant information about the travel agency and/or company involved in making the reservation.
+
+Additional Information:
+
+days_in_waiting_list: Number of days the booking was on a waiting list before it was confirmed or canceled.
+customer_type provides information on types of customers (Categorical)
+adr: Average daily rate per room, calculated by dividing the sum of all lodging transactions by the total number of staying nights (Numeric)
