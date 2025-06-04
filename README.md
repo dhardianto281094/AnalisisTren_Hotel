@@ -16,16 +16,14 @@ Proyek ini bertujuan untuk membangun model prediktif yang dapat mengidentifikasi
 
 ```mermaid
 graph LR
-A[Raw Dataset] --> B[Data Cleaning & Preprocessing]
+A[Raw Dataset] --> B[Data Cleaning and Preprocessing]
 B --> C[Exploratory Data Analysis]
 C --> D[Feature Engineering]
-D --> E[Modeling (XGBoost & RF)]
+D --> E[Modeling (XGBoost and RF)]
 E --> F[Model Evaluation]
 F --> G[Model Interpretation (SHAP)]
-G --> H[Business Insight & Recommendations]
+G --> H[Business Insight and Recommendations]
 ```
-
----
 
 ## 🔍 Dataset
 
