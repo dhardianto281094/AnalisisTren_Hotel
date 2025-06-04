@@ -19,10 +19,12 @@ graph LR
 A[Raw Dataset] --> B[Data Cleaning and Preprocessing]
 B --> C[Exploratory Data Analysis]
 C --> D[Feature Engineering]
-D --> E[Modeling (XGBoost and RF)]
-E --> F[Model Evaluation]
+D --> E1[Modeling (XGBoost and RF)]
+E1 --> F[Model Evaluation]
 F --> G[Model Interpretation (SHAP)]
 G --> H[Business Insight and Recommendations]
+```
+]
 ```
 
 ## 🔍 Dataset
